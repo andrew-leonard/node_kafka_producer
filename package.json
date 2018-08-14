@@ -1,0 +1,27 @@
+{
+  "name": "node_kafka_producer",
+  "version": "1.0.0",
+  "description": "Node module to create a producer which pushes messages to kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-leonard/node_kafka_producer.git"
+  },
+  "keywords": [
+    "kafka",
+    "producer"
+  ],
+  "author": "Andrew Leonard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-leonard/node_kafka_producer/issues"
+  },
+  "homepage": "https://github.com/andrew-leonard/node_kafka_producer#readme",
+  "dependencies": {
+    "kafka-node": "^2.6.1",
+    "minimist": "^1.2.0"
+  }
+}
