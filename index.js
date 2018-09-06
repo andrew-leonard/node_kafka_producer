@@ -8,11 +8,11 @@ const producer = new Producer(client);
 const km = new KeyedMessage('key', 'message');
 
 const message = {
-    timed_at_ms: new Date().getTime(),
+    timed_at_ms: 1514836800000,
     severity: 5,
-    class: '',
-    source: '',
-    type: ''
+    class: 'moog:test:Test',
+    source: 'localhost',
+    type: 'abc'
 }
 
 // Build the payloads
